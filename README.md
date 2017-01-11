@@ -23,5 +23,12 @@ Problem Set 2: Crypto
 Learn basic cryptography and implement several ciphers.
 
 Initials.c takes in a name and outputs that person's initials.
+Caesar.c implements Caesar's cipher whichs shifts each letter in a message by a certain provided factor to encrypt it.
+Vigenere.c implements Vigenere's cipher which uses a code word instead of a single number and scrambles a message by cycling through the code word using each character's numeric equivalent (a=1, b=2... z= 26) to scramble the message.
+
+Problem Set 3: Game of Fifteen
+
+Helpers.c and Find.c work together to sort and search a large amount of data to find a specific number provided by the user
+Fifteen.c implements a [game of fifteen](https://en.wikipedia.org/wiki/15_puzzle) in the command terminal.
 
 
